@@ -1,0 +1,58 @@
+.settings-canvas {
+  position: absolute;
+  cursor: pointer;
+  right: 25px;
+  user-select: none;
+  top: 10px;
+}
+
+.settings-modal {
+  display: flex;
+  position: fixed;
+  background-color: aliceblue;
+  width: 500px;
+  height: auto;
+  padding: 60px 20px 30px;
+  top: 10%;
+  right: 30%;
+  flex-direction: column;
+  user-select: none;
+  gap: 15px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.settings-modal_hidden {
+  display: none;
+}
+
+.settings-modal__input {
+  height: 20px;
+  position: relative;
+  color: black;
+}
+.settings-canvas__close-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 15px;
+  top: 5px;
+  width: max-content;
+  height: max-content;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #8b0000;
+  transition: 200ms ease-in-out;
+}
+
+.settings-canvas__close-btn:active,
+.settings-canvas__close-btn:hover,
+.settings-canvas__close-btn:focus {
+  background-color: transparent;
+  border: none;
+  color: #b22222;
+  outline: none;
+}

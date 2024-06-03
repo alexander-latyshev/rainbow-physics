@@ -1,0 +1,23 @@
+.settings-item {
+  user-select: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.settings-item span {
+  color: black;
+}
+.settings-item__input {
+  height: 30px;
+  max-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-justify: center;
+  font-family: "Jersey 10", sans-serif;
+  font-size: 30px;
+  background-color: #1a1a1a;
+  padding: 1px;
+  border: none;
+}
